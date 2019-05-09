@@ -1,0 +1,20 @@
+body {
+    padding-top: 70px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1+p {
+    padding-left: 500px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: aqua;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: brown;
+    background: oldlace;
+}

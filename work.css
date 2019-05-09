@@ -1,0 +1,45 @@
+                body {
+                    /* background: url(about1.jpg);
+    background-repeat: inherit;
+    background-size: cover; */
+                    background: honeydew;
+                }
+                /*             
+            h1 {
+                border: 3px plum dotted;
+            }
+            
+            #special {
+                background: goldenrod;
+            }
+            
+            .completed {
+                text-decoration: aqua line-through; */
+                /* * Selector */
+                /* * {
+                    border: 6px ridge forestgreen;
+                } */
+                /* Adjacent selector */
+                
+                h4+ul {
+                    border: 1.5px plum solid;
+                }
+                /* Descendant Selector */
+                
+                li a {
+                    background: teal;
+                    color: greenyellow;
+                }
+                /* Attribute Selector */
+                
+                a[href="#"] {
+                    padding-top: 4px;
+                    border: 3px groove navy;
+                }
+                /* nth type Selector */
+                
+                h4:nth-of-type(2) {
+                    border: 4px groove yellow;
+                    color: rgba(9, 51, 238, 0.7);
+                    padding-top: 20px;
+                }
